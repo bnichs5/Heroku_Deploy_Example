@@ -150,7 +150,7 @@ var findSize = (body.indexOf('size'));
 
 
                      if((fileSize2 < 22548578304)){
-                     	var final = ('<p> <a href="nplayer-https://plex3.herokuapp.com/cdn/' + decode11.slice(0, -14) + partKey2 + '?' + decode22.slice(1) + '" style="color:orange;">' + fileName2  + '</a>   || <p  style="color:orange;">     FileSize: ' + (fileSize2/1024/1024/1024).toFixed(2) + 'GB  ||  Duration:  ' + Math.round(duration2/60000) + ' mins   ||  BitRate: ' + bitRate2  + ' Mb/s || Video Codec: ' + videoCodec2 + ' ||  Video Resolution: ' + videoResolution2 + '</p>');
+                     	var final = ('<p> <a href="' + decode11.slice(0, -14) + partKey2 + '?' + decode22.slice(1) + '" style="color:orange;">' + fileName2  + '</a>   || <p  style="color:orange;">     FileSize: ' + (fileSize2/1024/1024/1024).toFixed(2) + 'GB  ||  Duration:  ' + Math.round(duration2/60000) + ' mins   ||  BitRate: ' + bitRate2  + ' Mb/s || Video Codec: ' + videoCodec2 + ' ||  Video Resolution: ' + videoResolution2 + '</p>');
                         var remember = '22'; 
                      }
 
